@@ -1,17 +1,4 @@
-main {
-    width: 500px;
-    margin: auto;
-    background: gray;
-    overflow: auto;
-}
-nav {
-    width: 100px;
-    float: right;
-}
-
-p {
+* {
     margin: 0;
-    padding: 10px;
-    float: left;
-    width: 380px;
+    padding: 0;
 }
