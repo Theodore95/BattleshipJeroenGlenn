@@ -1,7 +1,6 @@
 var main = function () {
     "use strict";
     
-
     var addCommentFromInputBox = function() {
         var $new_comment;
 
@@ -22,6 +21,12 @@ var main = function () {
         if (event.keyCode === 13) {
             addCommentFromInputBox();
         }      
-    });   
+    });
+    
+    var $newUL = $("<ul>");
+    var $newParagraphElement = $("<p>");
+    $newParagraphElement.text("this is a paragraph");
+    
+
 };
 $(document).ready(main);
