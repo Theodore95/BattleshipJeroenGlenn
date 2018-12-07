@@ -1,0 +1,42 @@
+body {
+    background: #f9e933;
+    /*width: 855px;
+    margin: auto;*/
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header .container, main
+
+header {
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+header h1 {
+    float: left;
+}
+header h5 {
+    float: right;
+    font-family: cursive;
+}
+footer {
+    border-top: 1px solid black;
+}
+
+
+
+.comment-input {
+    float: left;
+}
+
+.comments {
+    float: right;
+}
+.comments p:nth-child(even) {
+    background: rgb(201, 245, 239);
+}
+.comments p:nth-child(odd) {
+    background: rgb(166, 218, 224);
+}
